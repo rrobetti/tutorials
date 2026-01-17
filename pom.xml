@@ -550,6 +550,10 @@
             </build>
 
             <modules>
+                <!-- This would need a Maven 4 runtime (RC5) to build successfully -->
+                <!--
+                <module>apache-maven-4</module>
+                -->
                 <module>parent-boot-1</module>
                 <module>parent-boot-2</module>
                 <module>parent-boot-3</module>
@@ -747,6 +751,7 @@
                 <module>mybatis-plus</module>
                 <module>netflix-modules</module>
                 <module>optaplanner</module>
+                <module>ojp</module>
                 <module>orika</module>
                 <module>osgi</module>
                 <module>patterns-modules</module>
@@ -1219,6 +1224,7 @@
                 <module>mybatis-plus</module>
                 <module>netflix-modules</module>
                 <module>optaplanner</module>
+                <module>ojp</module>
                 <module>orika</module>
                 <module>osgi</module>
                 <module>patterns-modules</module>
